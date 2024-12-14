@@ -16,8 +16,20 @@ def calculate():
             result = multiply(num1, num2)
         elif operation == "Division":
             result = divide(num1, num2)
-        else:
-            raise ValueError("Invalid operation selected.")
+        elif operation == "Modulo":
+            result = modulo(num1, num2)
+        elif operation == "Sin":
+            result = sin(num1)
+        elif operation == "Cos":
+            result = cos(num1)
+        elif operation == "Power":
+            result = power(num1, num2)
+        elif operation == "Square Root":
+            result = square_root(num1)
+        elif operation == "Floor":
+            result = floor(num1)
+        elif operation == "Ceil":
+            result = ceil(num1)
 
         result_label.config(text=f"Result: {result}")
     except Exception as e:
