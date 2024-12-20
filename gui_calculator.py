@@ -1,6 +1,6 @@
 import tkinter as tk
 from tkinter import messagebox
-from calculator_functions import add, subtract, multiply, divide
+from calculator_functions import add, subtract, multiply, divide, modulo, sin, cos, power, square_root, floor, ceil
 
 def calculate():
     try:
@@ -51,7 +51,7 @@ tk.Label(root, text="Number 2:").grid(row=1, column=0, padx=10, pady=5)
 # Dropdown menu for operations
 operation_var = tk.StringVar(root)
 operation_var.set("Addition")  # Default value
-operations = ["Addition", "Subtraction", "Multiplication", "Division"]
+operations = ["Addition", "Subtraction", "Multiplication", "Division", "Modulo", "Sin", "Cos", "Power", "Square Root", "Floor", "Ceil"]
 operation_menu = tk.OptionMenu(root, operation_var, *operations)
 operation_menu.grid(row=2, column=1, padx=10, pady=5)
 tk.Label(root, text="Operation:").grid(row=2, column=0, padx=10, pady=5)
