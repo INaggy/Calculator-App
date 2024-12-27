@@ -1,6 +1,6 @@
 import tkinter as tk
 from tkinter import messagebox
-from calculator_functions import add, subtract, multiply, divide, modulo, sin, cos, power, square_root, floor, ceil
+from Calculator_functions import add, subtract, multiply, divide, modulo, sin, cos, power, square_root, floor, ceil
 
 def calculate():
     try:
