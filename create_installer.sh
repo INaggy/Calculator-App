@@ -20,7 +20,7 @@ cat <<EOF >"$CONTROL_FILE"
 Package: gui-calculator
 Version: 1.0.0
 Architecture: all
-Maintainer: youremail@example.com
+Maintainer: grigoryd2004@gmail.com
 Description: GUI-калькулятор на Python
 EOF
 
