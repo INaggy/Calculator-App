@@ -1,0 +1,5 @@
+Package: gui-calculator
+Version: 1.0.0
+Architecture: all
+Maintainer: grigoryd2004@gmail.com
+Description: GUI-калькулятор на Python
