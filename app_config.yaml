@@ -1,0 +1,6 @@
+application:
+  name: GUI Calculator
+  version: 1.0.0
+  description: "Простой GUI-калькулятор"
+commands:
+  start: "python3 /usr/local/bin/gui_calculator.py"
