@@ -2,7 +2,7 @@
 echo "Запуск модульных тестов..."
 # Пример для Python
 source venv/bin/activate
-pytest tests/
+pytest unittests.py
 if [ $? -eq 0 ]; then
     echo "Все тесты успешно пройдены!"
 else
