@@ -4,6 +4,9 @@ from Calculator_functions import add, subtract, multiply, divide, modulo, sin, c
 
 def calculate():
     try:
+        if not entry1.get() and not entry2.get():
+            raise ValueError("Both input fields are empty.")
+            
         num1 = float(entry1.get()) if entry1.get() else 0
         num2 = float(entry2.get()) if entry2.get() else 0
         operation = operation_var.get()
